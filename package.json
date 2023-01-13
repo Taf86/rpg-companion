@@ -1,0 +1,24 @@
+{
+  "name": "rpg-companion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "initiative-tracker": "pnpm --filter @rpg-companion/initiative-tracker",
+    "ui-lib": "pnpm --filter @rpg-companion/ui-lib",
+    "dev": "pnpm --recursive --parallel --stream run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "5.48.1",
+    "@typescript-eslint/parser": "5.48.1",
+    "eslint": "8.31.0",
+    "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-import": "2.27.4",
+    "eslint-plugin-simple-import-sort": "8.0.0",
+    "prettier": "2.8.2",
+    "typescript": "4.9.4"
+  }
+}
