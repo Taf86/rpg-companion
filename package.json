@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "initiative-tracker": "pnpm --filter @rpg-companion/initiative-tracker",
-    "ui-lib": "pnpm --filter @rpg-companion/ui-lib",
-    "dev": "pnpm --recursive --parallel --stream run dev"
+    "tracker": "pnpm --filter @rpg-companion/initiative-tracker",
+    "minions": "pnpm --filter @rpg-companion/minions",
+    "ui": "pnpm --filter @rpg-companion/ui-lib",
+    "dev-tracker": "pnpm --parallel --stream --filter @rpg-companion/initiative-tracker... run dev",
+    "dev-minions": "pnpm --parallel --stream --filter @rpg-companion/minions... run dev"
   },
   "keywords": [],
   "author": "",
